@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sss.css" />
+</head>
+
+<body>
+    <div class="head"></div>
+    <h1><b>Contact</b></h1>
+
+    <div id='search-box'>
+        <form action='/search' id='search-form' method='get' target='_top'>
+            <i class="fa fa-search fa-search"></i> <input id='search-text' name='Meem'
+                placeholder='Filter by name or email' type='text' />
+        </form>
+
+        <select id="selectbox" class="selectbox selBox">
+            <option value="">All Roles</option>
+            <option value="Meem1">admin</option>/>
+            <option value="Meem2">markting dirc</option>
+            <option value="Meem3">software engineer</option>
+            <option value="Meem4">fron desk officer</option>
+        </select>
+        <div class="side">
+            <button>new member </button>
+            <button>export csv</button>
+        </div>
+    </div>
+    <div class="tableP">
+
+        <table>
+            <thead>
+                <tr>
+                    <th>MEMEBER</th>
+                    <th>ROLE</th>
+                    <th>STATUS</th>
+                    <th>AMOUNT EARND</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Mrion watson</td>
+                    <td>admin</td>
+                    <td>
+                        <p class=" status active">ACTIVE
+                    </td>
+                    <td>
+                        <p class="earning">45,000$</p>
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td>louis hopkins</td>
+                    <td>marketing director</td>
+                    <td>
+                        <p class="status reviewing"> REVIEWING</p>
+                    </td>
+                    <td>
+                        <p class="earning">4,600$</p>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>susan schwartz</td>
+                    <td>front desk officer</td>
+                    <td>
+                        <p class="status declined">DECLINED</p>
+                    </td>
+                    <td>
+                        <p class="earning">89,00$</p>
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>saidy Akinlady</td>
+                    <td>swoftware engineer</td>
+                    <td>
+                        <p class="status active">ACTIVE</p>
+                    </td>
+                    <td>
+                        <p class="earning">22,23$</p>
+                    </td>
+
+                </tr>
+
+            </tbody>
+
+    </div>
+    </table>
+    <p id="note">4 memebers</p>
+    <div class="last">
+        <button> previous</button>
+        <button>next</button>
+    </div>
+</body>

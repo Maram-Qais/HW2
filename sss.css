@@ -1,0 +1,115 @@
+
+
+body {
+  font-family: Mukta, sans-serif;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 0.9rem;
+  background-color: rgb(228, 224, 224)
+}
+#search-box {
+    position: relative;
+    width:30%;
+    height: 10px; !important
+  
+    }
+    
+    #search-form 
+    {
+    border: 1px solid #999;
+    border-radius: 5px;
+    background-color: #fff;
+    overflow: hidden;
+  }
+    #search-text 
+    {
+    width: 90%;
+    color: #ddd;
+    border-width: 0;
+    background: transparent;
+    }
+    #search-box input[type="text"]
+    {
+    padding: 5px 5 5px 1em;
+    color: #333;
+    outline: none;
+    padding-bottom: 5px;
+    bottom: 5px;
+    }
+  
+  .fa-search {
+    padding-left: 10px;
+    color:#999;
+    padding-top: 3px;
+    font-size: 12px;
+    width: 40%;
+  }
+  .selBox {  
+    width: 40% !important;
+    height: 200% !important;
+    }
+    
+    .head{position: relative;}
+  
+  .selectbox {
+  position: relative;
+  left: 103%;
+  bottom: 220%;
+  border: 1px solid #999;
+  
+  }
+  
+  
+  
+ 
+table { margin-bottom: 25px;
+  border-collapse: collapse;
+  box-shadow: 0 5px 10px  #ccb4e2  ;
+  background-color: white;
+  text-align: left;
+  overflow: hidden;}
+
+  thead {
+    box-shadow: 0 5px 10px #e1e5ee;
+  }
+
+  th {
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 0.7rem;
+    font-weight: 900;
+  }
+
+  td {
+    padding: 1rem 2rem;
+  }
+
+  .status {
+    border-radius:2px;
+    
+    padding: 0.2rem 1rem;
+    text-align: center;}
+
+.active{background-color: rgba(161, 226, 165, 0.774);}
+
+.declined{background-color: rgba(248, 109, 109, 0.61);}
+.reviewing{background-color: rgba(233, 233, 165, 0.87);}
+.tableP{margin-bottom: 150px;}
+
+.side{margin-left:500px ;
+margin-top: -45px;
+display: flex;
+width: 80%;}
+#note{color: slategray;
+font-family: Arial;
+font-size: small;
+text-align: left;
+}
+   
+.last{display: flex;
+margin-left: 550px;
+margin-top: -40px;}
